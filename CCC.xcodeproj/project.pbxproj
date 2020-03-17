@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4D3BE81CBAD80900BDE0F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4D3BE71CBAD80900BDE0F2 /* QuartzCore.framework */; };
+		1F7F5E001CC154AA00F29019 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7F5DFF1CC154AA00F29019 /* Contact.m */; };
+		1F7F5E411CC2BC3A00F29019 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7F5E401CC2BC3A00F29019 /* MessageUI.framework */; };
+		1FAB7C891C93D489006958FA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB7C881C93D488006958FA /* TableViewController.m */; };
+		1FC3C9D21CA7C9C5003500FF /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3C9891CA7C9C5003500FF /* AboutViewController.m */; };
+		1FC3CA0D1CA7C9C5003500FF /* RecipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC3C9CC1CA7C9C5003500FF /* RecipeTableCell.m */; };
+		1FE377541CBD8A1F0042CA79 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AA6C3D1589A2DF0093D97E /* MainStoryboard.storyboard */; };
+		1FE377551CBD8B610042CA79 /* bacon-deviled-eggs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46901CBD828E00A75378 /* bacon-deviled-eggs.jpg */; };
+		1FE377561CBD8B610042CA79 /* bacon-shrimp-mac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46911CBD828E00A75378 /* bacon-shrimp-mac.jpg */; };
+		1FE377571CBD8B610042CA79 /* baked-potato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46921CBD828E00A75378 /* baked-potato.jpg */; };
+		1FE377581CBD8B610042CA79 /* banana-pudding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46931CBD828E00A75378 /* banana-pudding.jpg */; };
+		1FE377591CBD8B610042CA79 /* barbecue_sauce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46941CBD828E00A75378 /* barbecue_sauce.jpg */; };
+		1FE3775A1CBD8B610042CA79 /* bbq-beef-brats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46951CBD828E00A75378 /* bbq-beef-brats.jpg */; };
+		1FE3775B1CBD8B610042CA79 /* bbq-chicken-pizza-squares.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46961CBD828E00A75378 /* bbq-chicken-pizza-squares.jpg */; };
+		1FE3775C1CBD8B610042CA79 /* beef-tips.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46971CBD828E00A75378 /* beef-tips.jpg */; };
+		1FE3775D1CBD8B610042CA79 /* bread-pudding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46981CBD828E00A75378 /* bread-pudding.jpg */; };
+		1FE3775E1CBD8B610042CA79 /* broccoli-casserole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46991CBD828E00A75378 /* broccoli-casserole.jpg */; };
+		1FE3775F1CBD8B610042CA79 /* buttermilk_biscuits.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469A1CBD828E00A75378 /* buttermilk_biscuits.jpg */; };
+		1FE377601CBD8B610042CA79 /* buttery-corn-on-the-cob.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469B1CBD828E00A75378 /* buttery-corn-on-the-cob.jpg */; };
+		1FE377611CBD8B610042CA79 /* collard-greens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469C1CBD828E00A75378 /* collard-greens.jpg */; };
+		1FE377621CBD8B610042CA79 /* cornbread-muffins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469D1CBD828E00A75378 /* cornbread-muffins.jpg */; };
+		1FE377631CBD8B610042CA79 /* cream-of-mushroom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469E1CBD828E00A75378 /* cream-of-mushroom.jpg */; };
+		1FE377641CBD8B610042CA79 /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C469F1CBD828E00A75378 /* creme_brelee.jpg */; };
+		1FE377651CBD8B610042CA79 /* crostini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A01CBD828E00A75378 /* crostini.jpg */; };
+		1FE377661CBD8B610042CA79 /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A11CBD828E00A75378 /* egg_benedict.jpg */; };
+		1FE377671CBD8B610042CA79 /* fork-tender-ribs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A21CBD828E00A75378 /* fork-tender-ribs.jpg */; };
+		1FE377681CBD8B610042CA79 /* fried-chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A31CBD828E00A75378 /* fried-chicken.jpg */; };
+		1FE377691CBD8B610042CA79 /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A41CBD828E00A75378 /* full_breakfast.jpg */; };
+		1FE3776A1CBD8B610042CA79 /* german-potato-salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A51CBD828E00A75378 /* german-potato-salad.jpg */; };
+		1FE3776B1CBD8B610042CA79 /* green-bean-casserole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A61CBD828E00A75378 /* green-bean-casserole.jpg */; };
+		1FE3776C1CBD8B610042CA79 /* grill-salad-spinach-salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A71CBD828E00A75378 /* grill-salad-spinach-salad.jpg */; };
+		1FE3776D1CBD8B610042CA79 /* grilled-chicken-breast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A81CBD828E00A75378 /* grilled-chicken-breast.jpg */; };
+		1FE3776E1CBD8B610042CA79 /* grilled-zucchini-squash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46A91CBD828E00A75378 /* grilled-zucchini-squash.jpg */; };
+		1FE3776F1CBD8B610042CA79 /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AA1CBD828E00A75378 /* ham_and_cheese_panini.jpg */; };
+		1FE377701CBD8B610042CA79 /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AB1CBD828E00A75378 /* ham_and_egg_sandwich.jpg */; };
+		1FE377711CBD8B610042CA79 /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AC1CBD828E00A75378 /* hamburger.jpg */; };
+		1FE377721CBD8B610042CA79 /* hor-dourves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AD1CBD828E00A75378 /* hor-dourves.jpg */; };
+		1FE377731CBD8B610042CA79 /* juicy-tender-brisket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AE1CBD828E00A75378 /* juicy-tender-brisket.jpg */; };
+		1FE377741CBD8B610042CA79 /* mac-cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46AF1CBD828E00A75378 /* mac-cheese.jpg */; };
+		1FE377751CBD8B610042CA79 /* macaroni-salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B01CBD828E00A75378 /* macaroni-salad.jpg */; };
+		1FE377761CBD8B610042CA79 /* mushroom-puffs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B11CBD828E00A75378 /* mushroom-puffs.jpg */; };
+		1FE377771CBD8B610042CA79 /* mushroom-risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B21CBD828E00A75378 /* mushroom-risotto.jpg */; };
+		1FE377781CBD8B610042CA79 /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B31CBD828E00A75378 /* noodle_with_bbq_pork.jpg */; };
+		1FE377791CBD8B610042CA79 /* oven-baked-chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B41CBD828E00A75378 /* oven-baked-chicken.jpg */; };
+		1FE3777A1CBD8B610042CA79 /* party-meatballs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B51CBD828E00A75378 /* party-meatballs.jpg */; };
+		1FE3777B1CBD8B610042CA79 /* ribeyes-steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B61CBD828E00A75378 /* ribeyes-steak.jpg */; };
+		1FE3777C1CBD8B610042CA79 /* rice_pilaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B71CBD828E00A75378 /* rice_pilaf.jpg */; };
+		1FE3777D1CBD8B610042CA79 /* rice-a-roni.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B81CBD828E00A75378 /* rice-a-roni.jpg */; };
+		1FE3777E1CBD8B610042CA79 /* rice-pudding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46B91CBD828E00A75378 /* rice-pudding.jpg */; };
+		1FE3777F1CBD8B610042CA79 /* rich-brown-gravy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BA1CBD828E00A75378 /* rich-brown-gravy.jpg */; };
+		1FE377801CBD8B610042CA79 /* roasted-red-potato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BB1CBD828E00A75378 /* roasted-red-potato.jpg */; };
+		1FE377811CBD8B610042CA79 /* salad-bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BC1CBD828E00A75378 /* salad-bar.jpg */; };
+		1FE377821CBD8B610042CA79 /* self-serve-mixed-greens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BD1CBD828E00A75378 /* self-serve-mixed-greens.jpg */; };
+		1FE377831CBD8B610042CA79 /* shrimp-cocktail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BE1CBD828E00A75378 /* shrimp-cocktail.jpg */; };
+		1FE377841CBD8B610042CA79 /* sliced-bread.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46BF1CBD828E00A75378 /* sliced-bread.jpg */; };
+		1FE377851CBD8B610042CA79 /* slow-braised-pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C01CBD828E00A75378 /* slow-braised-pork.jpg */; };
+		1FE377861CBD8B610042CA79 /* slow-cooked-cabbage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C11CBD828E00A75378 /* slow-cooked-cabbage.jpg */; };
+		1FE377871CBD8B610042CA79 /* spicy-southwest-slaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C21CBD828E00A75378 /* spicy-southwest-slaw.jpg */; };
+		1FE377881CBD8B610042CA79 /* steamed-brocolli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C31CBD828E00A75378 /* steamed-brocolli.jpg */; };
+		1FE377891CBD8B610042CA79 /* steamed-green-beans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C41CBD828E00A75378 /* steamed-green-beans.jpg */; };
+		1FE3778A1CBD8B610042CA79 /* sweet-hawaiian-rolls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C51CBD828E00A75378 /* sweet-hawaiian-rolls.jpg */; };
+		1FE3778B1CBD8B610042CA79 /* tomato-pasta-salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C61CBD828E00A75378 /* tomato-pasta-salad.jpg */; };
+		1FE3778C1CBD8B610042CA79 /* tomato-sauce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C71CBD828E00A75378 /* tomato-sauce.jpg */; };
+		1FE3778D1CBD8B610042CA79 /* twice-baked-loaded-potato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C81CBD828E00A75378 /* twice-baked-loaded-potato.jpg */; };
+		1FE3778E1CBD8B610042CA79 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C46C91CBD828E00A75378 /* vegetable_curry.jpg */; };
+		1FE3778F1CBD8B970042CA79 /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F31EEE71CBD800F0003929A /* back2.jpg */; };
+		1FE377941CBD8B970042CA79 /* home-collage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F31EEEC1CBD800F0003929A /* home-collage.png */; };
+		1FE377991CBD8B970042CA79 /* photo-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F31EEF11CBD800F0003929A /* photo-frame.png */; };
+		1FE3779A1CBD8B970042CA79 /* photo-frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F31EEF21CBD800F0003929A /* photo-frame@2x.png */; };
+		1FE377AD1CBD8BB70042CA79 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F0C47041CBD832900A75378 /* about.jpg */; };
+		1FE377AF1CBD8BB70042CA79 /* CCC-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4AA6C331589A2DF0093D97E /* CCC-Info.plist */; };
+		1FEF4D571CA65DD400DDC568 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF4D561CA65DD400DDC568 /* Recipe.m */; };
+		1FF2354F1CBEDFC4005C023E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F80BB871CBD6E5900B96B87 /* Images.xcassets */; };
+		CEA4D4E31CB39A6000DAA936 /* RecipeSegmentedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4D4E21CB39A6000DAA936 /* RecipeSegmentedTableViewController.m */; };
+		F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F419149D158D558600E54887 /* RecipeDetailViewController.m */; };
+		F4AA6C2C1589A2DF0093D97E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AA6C2B1589A2DF0093D97E /* UIKit.framework */; };
+		F4AA6C2E1589A2DF0093D97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AA6C2D1589A2DF0093D97E /* Foundation.framework */; };
+		F4AA6C301589A2DF0093D97E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4AA6C2F1589A2DF0093D97E /* CoreGraphics.framework */; };
+		F4AA6C381589A2DF0093D97E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA6C371589A2DF0093D97E /* main.m */; };
+		F4AA6C3C1589A2DF0093D97E /* RecipeBookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4AA6C3B1589A2DF0093D97E /* RecipeBookAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F0C46901CBD828E00A75378 /* bacon-deviled-eggs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bacon-deviled-eggs.jpg"; path = "RecipeBook/food_images/bacon-deviled-eggs.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46911CBD828E00A75378 /* bacon-shrimp-mac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bacon-shrimp-mac.jpg"; path = "RecipeBook/food_images/bacon-shrimp-mac.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46921CBD828E00A75378 /* baked-potato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "baked-potato.jpg"; path = "RecipeBook/food_images/baked-potato.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46931CBD828E00A75378 /* banana-pudding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "banana-pudding.jpg"; path = "RecipeBook/food_images/banana-pudding.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46941CBD828E00A75378 /* barbecue_sauce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = barbecue_sauce.jpg; path = RecipeBook/food_images/barbecue_sauce.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46951CBD828E00A75378 /* bbq-beef-brats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bbq-beef-brats.jpg"; path = "RecipeBook/food_images/bbq-beef-brats.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46961CBD828E00A75378 /* bbq-chicken-pizza-squares.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bbq-chicken-pizza-squares.jpg"; path = "RecipeBook/food_images/bbq-chicken-pizza-squares.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46971CBD828E00A75378 /* beef-tips.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "beef-tips.jpg"; path = "RecipeBook/food_images/beef-tips.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46981CBD828E00A75378 /* bread-pudding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bread-pudding.jpg"; path = "RecipeBook/food_images/bread-pudding.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46991CBD828E00A75378 /* broccoli-casserole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "broccoli-casserole.jpg"; path = "RecipeBook/food_images/broccoli-casserole.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C469A1CBD828E00A75378 /* buttermilk_biscuits.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buttermilk_biscuits.jpg; path = RecipeBook/food_images/buttermilk_biscuits.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C469B1CBD828E00A75378 /* buttery-corn-on-the-cob.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "buttery-corn-on-the-cob.jpg"; path = "RecipeBook/food_images/buttery-corn-on-the-cob.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C469C1CBD828E00A75378 /* collard-greens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "collard-greens.jpg"; path = "RecipeBook/food_images/collard-greens.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C469D1CBD828E00A75378 /* cornbread-muffins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cornbread-muffins.jpg"; path = "RecipeBook/food_images/cornbread-muffins.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C469E1CBD828E00A75378 /* cream-of-mushroom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cream-of-mushroom.jpg"; path = "RecipeBook/food_images/cream-of-mushroom.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C469F1CBD828E00A75378 /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = creme_brelee.jpg; path = RecipeBook/food_images/creme_brelee.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46A01CBD828E00A75378 /* crostini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crostini.jpg; path = RecipeBook/food_images/crostini.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46A11CBD828E00A75378 /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = egg_benedict.jpg; path = RecipeBook/food_images/egg_benedict.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46A21CBD828E00A75378 /* fork-tender-ribs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fork-tender-ribs.jpg"; path = "RecipeBook/food_images/fork-tender-ribs.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A31CBD828E00A75378 /* fried-chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fried-chicken.jpg"; path = "RecipeBook/food_images/fried-chicken.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A41CBD828E00A75378 /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = full_breakfast.jpg; path = RecipeBook/food_images/full_breakfast.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46A51CBD828E00A75378 /* german-potato-salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "german-potato-salad.jpg"; path = "RecipeBook/food_images/german-potato-salad.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A61CBD828E00A75378 /* green-bean-casserole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "green-bean-casserole.jpg"; path = "RecipeBook/food_images/green-bean-casserole.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A71CBD828E00A75378 /* grill-salad-spinach-salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grill-salad-spinach-salad.jpg"; path = "RecipeBook/food_images/grill-salad-spinach-salad.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A81CBD828E00A75378 /* grilled-chicken-breast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grilled-chicken-breast.jpg"; path = "RecipeBook/food_images/grilled-chicken-breast.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46A91CBD828E00A75378 /* grilled-zucchini-squash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grilled-zucchini-squash.jpg"; path = "RecipeBook/food_images/grilled-zucchini-squash.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46AA1CBD828E00A75378 /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_cheese_panini.jpg; path = RecipeBook/food_images/ham_and_cheese_panini.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46AB1CBD828E00A75378 /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ham_and_egg_sandwich.jpg; path = RecipeBook/food_images/ham_and_egg_sandwich.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46AC1CBD828E00A75378 /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hamburger.jpg; path = RecipeBook/food_images/hamburger.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46AD1CBD828E00A75378 /* hor-dourves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "hor-dourves.jpg"; path = "RecipeBook/food_images/hor-dourves.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46AE1CBD828E00A75378 /* juicy-tender-brisket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "juicy-tender-brisket.jpg"; path = "RecipeBook/food_images/juicy-tender-brisket.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46AF1CBD828E00A75378 /* mac-cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mac-cheese.jpg"; path = "RecipeBook/food_images/mac-cheese.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B01CBD828E00A75378 /* macaroni-salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "macaroni-salad.jpg"; path = "RecipeBook/food_images/macaroni-salad.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B11CBD828E00A75378 /* mushroom-puffs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mushroom-puffs.jpg"; path = "RecipeBook/food_images/mushroom-puffs.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B21CBD828E00A75378 /* mushroom-risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mushroom-risotto.jpg"; path = "RecipeBook/food_images/mushroom-risotto.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B31CBD828E00A75378 /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = noodle_with_bbq_pork.jpg; path = RecipeBook/food_images/noodle_with_bbq_pork.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46B41CBD828E00A75378 /* oven-baked-chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "oven-baked-chicken.jpg"; path = "RecipeBook/food_images/oven-baked-chicken.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B51CBD828E00A75378 /* party-meatballs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "party-meatballs.jpg"; path = "RecipeBook/food_images/party-meatballs.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B61CBD828E00A75378 /* ribeyes-steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ribeyes-steak.jpg"; path = "RecipeBook/food_images/ribeyes-steak.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B71CBD828E00A75378 /* rice_pilaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rice_pilaf.jpg; path = RecipeBook/food_images/rice_pilaf.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C46B81CBD828E00A75378 /* rice-a-roni.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rice-a-roni.jpg"; path = "RecipeBook/food_images/rice-a-roni.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46B91CBD828E00A75378 /* rice-pudding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rice-pudding.jpg"; path = "RecipeBook/food_images/rice-pudding.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BA1CBD828E00A75378 /* rich-brown-gravy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rich-brown-gravy.jpg"; path = "RecipeBook/food_images/rich-brown-gravy.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BB1CBD828E00A75378 /* roasted-red-potato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "roasted-red-potato.jpg"; path = "RecipeBook/food_images/roasted-red-potato.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BC1CBD828E00A75378 /* salad-bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "salad-bar.jpg"; path = "RecipeBook/food_images/salad-bar.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BD1CBD828E00A75378 /* self-serve-mixed-greens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "self-serve-mixed-greens.jpg"; path = "RecipeBook/food_images/self-serve-mixed-greens.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BE1CBD828E00A75378 /* shrimp-cocktail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shrimp-cocktail.jpg"; path = "RecipeBook/food_images/shrimp-cocktail.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46BF1CBD828E00A75378 /* sliced-bread.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sliced-bread.jpg"; path = "RecipeBook/food_images/sliced-bread.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C01CBD828E00A75378 /* slow-braised-pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "slow-braised-pork.jpg"; path = "RecipeBook/food_images/slow-braised-pork.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C11CBD828E00A75378 /* slow-cooked-cabbage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "slow-cooked-cabbage.jpg"; path = "RecipeBook/food_images/slow-cooked-cabbage.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C21CBD828E00A75378 /* spicy-southwest-slaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spicy-southwest-slaw.jpg"; path = "RecipeBook/food_images/spicy-southwest-slaw.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C31CBD828E00A75378 /* steamed-brocolli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "steamed-brocolli.jpg"; path = "RecipeBook/food_images/steamed-brocolli.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C41CBD828E00A75378 /* steamed-green-beans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "steamed-green-beans.jpg"; path = "RecipeBook/food_images/steamed-green-beans.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C51CBD828E00A75378 /* sweet-hawaiian-rolls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sweet-hawaiian-rolls.jpg"; path = "RecipeBook/food_images/sweet-hawaiian-rolls.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C61CBD828E00A75378 /* tomato-pasta-salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tomato-pasta-salad.jpg"; path = "RecipeBook/food_images/tomato-pasta-salad.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C71CBD828E00A75378 /* tomato-sauce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tomato-sauce.jpg"; path = "RecipeBook/food_images/tomato-sauce.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C81CBD828E00A75378 /* twice-baked-loaded-potato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "twice-baked-loaded-potato.jpg"; path = "RecipeBook/food_images/twice-baked-loaded-potato.jpg"; sourceTree = SOURCE_ROOT; };
+		1F0C46C91CBD828E00A75378 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vegetable_curry.jpg; path = RecipeBook/food_images/vegetable_curry.jpg; sourceTree = SOURCE_ROOT; };
+		1F0C47041CBD832900A75378 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = about.jpg; path = RecipeBook/web_resources/about.jpg; sourceTree = SOURCE_ROOT; };
+		1F31EEE71CBD800F0003929A /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = back2.jpg; path = RecipeBook/icons/back2.jpg; sourceTree = SOURCE_ROOT; };
+		1F31EEEC1CBD800F0003929A /* home-collage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-collage.png"; path = "RecipeBook/icons/home-collage.png"; sourceTree = SOURCE_ROOT; };
+		1F31EEF11CBD800F0003929A /* photo-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame.png"; path = "RecipeBook/icons/photo-frame.png"; sourceTree = SOURCE_ROOT; };
+		1F31EEF21CBD800F0003929A /* photo-frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "photo-frame@2x.png"; path = "RecipeBook/icons/photo-frame@2x.png"; sourceTree = SOURCE_ROOT; };
+		1F4D3BE71CBAD80900BDE0F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F7F5DFE1CC1549D00F29019 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		1F7F5DFF1CC154AA00F29019 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		1F7F5E401CC2BC3A00F29019 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1F80BB871CBD6E5900B96B87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RecipeBook/Images.xcassets; sourceTree = "<group>"; };
+		1FAB7C871C93D458006958FA /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1FAB7C881C93D488006958FA /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		1FC3C9881CA7C9C5003500FF /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		1FC3C9891CA7C9C5003500FF /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		1FC3C9B11CA7C9C5003500FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1FC3C9CB1CA7C9C5003500FF /* RecipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeTableCell.h; sourceTree = "<group>"; };
+		1FC3C9CC1CA7C9C5003500FF /* RecipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeTableCell.m; sourceTree = "<group>"; };
+		1FEF4D551CA65DD400DDC568 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		1FEF4D561CA65DD400DDC568 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		CEA4D4E11CB39A6000DAA936 /* RecipeSegmentedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeSegmentedTableViewController.h; sourceTree = "<group>"; };
+		CEA4D4E21CB39A6000DAA936 /* RecipeSegmentedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeSegmentedTableViewController.m; sourceTree = "<group>"; };
+		F419149C158D558600E54887 /* RecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailViewController.h; sourceTree = "<group>"; };
+		F419149D158D558600E54887 /* RecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailViewController.m; sourceTree = "<group>"; };
+		F4AA6C271589A2DF0093D97E /* CCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AA6C2B1589A2DF0093D97E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4AA6C2D1589A2DF0093D97E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4AA6C2F1589A2DF0093D97E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4AA6C331589A2DF0093D97E /* CCC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCC-Info.plist"; sourceTree = "<group>"; };
+		F4AA6C351589A2DF0093D97E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4AA6C371589A2DF0093D97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4AA6C391589A2DF0093D97E /* CCC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCC-Prefix.pch"; sourceTree = "<group>"; };
+		F4AA6C3A1589A2DF0093D97E /* RecipeBookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeBookAppDelegate.h; sourceTree = "<group>"; };
+		F4AA6C3B1589A2DF0093D97E /* RecipeBookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeBookAppDelegate.m; sourceTree = "<group>"; };
+		F4AA6C3E1589A2DF0093D97E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4AA6C241589A2DF0093D97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7F5E411CC2BC3A00F29019 /* MessageUI.framework in Frameworks */,
+				1F4D3BE81CBAD80900BDE0F2 /* QuartzCore.framework in Frameworks */,
+				F4AA6C2C1589A2DF0093D97E /* UIKit.framework in Frameworks */,
+				F4AA6C2E1589A2DF0093D97E /* Foundation.framework in Frameworks */,
+				F4AA6C301589A2DF0093D97E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC3C9631CA7C457003500FF /* food_images */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C46901CBD828E00A75378 /* bacon-deviled-eggs.jpg */,
+				1F0C46911CBD828E00A75378 /* bacon-shrimp-mac.jpg */,
+				1F0C46921CBD828E00A75378 /* baked-potato.jpg */,
+				1F0C46931CBD828E00A75378 /* banana-pudding.jpg */,
+				1F0C46941CBD828E00A75378 /* barbecue_sauce.jpg */,
+				1F0C46951CBD828E00A75378 /* bbq-beef-brats.jpg */,
+				1F0C46961CBD828E00A75378 /* bbq-chicken-pizza-squares.jpg */,
+				1F0C46971CBD828E00A75378 /* beef-tips.jpg */,
+				1F0C46981CBD828E00A75378 /* bread-pudding.jpg */,
+				1F0C46991CBD828E00A75378 /* broccoli-casserole.jpg */,
+				1F0C469A1CBD828E00A75378 /* buttermilk_biscuits.jpg */,
+				1F0C469B1CBD828E00A75378 /* buttery-corn-on-the-cob.jpg */,
+				1F0C469C1CBD828E00A75378 /* collard-greens.jpg */,
+				1F0C469D1CBD828E00A75378 /* cornbread-muffins.jpg */,
+				1F0C469E1CBD828E00A75378 /* cream-of-mushroom.jpg */,
+				1F0C469F1CBD828E00A75378 /* creme_brelee.jpg */,
+				1F0C46A01CBD828E00A75378 /* crostini.jpg */,
+				1F0C46A11CBD828E00A75378 /* egg_benedict.jpg */,
+				1F0C46A21CBD828E00A75378 /* fork-tender-ribs.jpg */,
+				1F0C46A31CBD828E00A75378 /* fried-chicken.jpg */,
+				1F0C46A41CBD828E00A75378 /* full_breakfast.jpg */,
+				1F0C46A51CBD828E00A75378 /* german-potato-salad.jpg */,
+				1F0C46A61CBD828E00A75378 /* green-bean-casserole.jpg */,
+				1F0C46A71CBD828E00A75378 /* grill-salad-spinach-salad.jpg */,
+				1F0C46A81CBD828E00A75378 /* grilled-chicken-breast.jpg */,
+				1F0C46A91CBD828E00A75378 /* grilled-zucchini-squash.jpg */,
+				1F0C46AA1CBD828E00A75378 /* ham_and_cheese_panini.jpg */,
+				1F0C46AB1CBD828E00A75378 /* ham_and_egg_sandwich.jpg */,
+				1F0C46AC1CBD828E00A75378 /* hamburger.jpg */,
+				1F0C46AD1CBD828E00A75378 /* hor-dourves.jpg */,
+				1F0C46AE1CBD828E00A75378 /* juicy-tender-brisket.jpg */,
+				1F0C46AF1CBD828E00A75378 /* mac-cheese.jpg */,
+				1F0C46B01CBD828E00A75378 /* macaroni-salad.jpg */,
+				1F0C46B11CBD828E00A75378 /* mushroom-puffs.jpg */,
+				1F0C46B21CBD828E00A75378 /* mushroom-risotto.jpg */,
+				1F0C46B31CBD828E00A75378 /* noodle_with_bbq_pork.jpg */,
+				1F0C46B41CBD828E00A75378 /* oven-baked-chicken.jpg */,
+				1F0C46B51CBD828E00A75378 /* party-meatballs.jpg */,
+				1F0C46B61CBD828E00A75378 /* ribeyes-steak.jpg */,
+				1F0C46B71CBD828E00A75378 /* rice_pilaf.jpg */,
+				1F0C46B81CBD828E00A75378 /* rice-a-roni.jpg */,
+				1F0C46B91CBD828E00A75378 /* rice-pudding.jpg */,
+				1F0C46BA1CBD828E00A75378 /* rich-brown-gravy.jpg */,
+				1F0C46BB1CBD828E00A75378 /* roasted-red-potato.jpg */,
+				1F0C46BC1CBD828E00A75378 /* salad-bar.jpg */,
+				1F0C46BD1CBD828E00A75378 /* self-serve-mixed-greens.jpg */,
+				1F0C46BE1CBD828E00A75378 /* shrimp-cocktail.jpg */,
+				1F0C46BF1CBD828E00A75378 /* sliced-bread.jpg */,
+				1F0C46C01CBD828E00A75378 /* slow-braised-pork.jpg */,
+				1F0C46C11CBD828E00A75378 /* slow-cooked-cabbage.jpg */,
+				1F0C46C21CBD828E00A75378 /* spicy-southwest-slaw.jpg */,
+				1F0C46C31CBD828E00A75378 /* steamed-brocolli.jpg */,
+				1F0C46C41CBD828E00A75378 /* steamed-green-beans.jpg */,
+				1F0C46C51CBD828E00A75378 /* sweet-hawaiian-rolls.jpg */,
+				1F0C46C61CBD828E00A75378 /* tomato-pasta-salad.jpg */,
+				1F0C46C71CBD828E00A75378 /* tomato-sauce.jpg */,
+				1F0C46C81CBD828E00A75378 /* twice-baked-loaded-potato.jpg */,
+				1F0C46C91CBD828E00A75378 /* vegetable_curry.jpg */,
+			);
+			name = food_images;
+			path = RecipeBook/images;
+			sourceTree = "<group>";
+		};
+		1FC3C98A1CA7C9C5003500FF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				1F31EEE71CBD800F0003929A /* back2.jpg */,
+				1F31EEEC1CBD800F0003929A /* home-collage.png */,
+				1F31EEF11CBD800F0003929A /* photo-frame.png */,
+				1F31EEF21CBD800F0003929A /* photo-frame@2x.png */,
+			);
+			name = icons;
+			path = "RecipeBook/custom-tab-app-images";
+			sourceTree = "<group>";
+		};
+		1FC3C9AF1CA7C9C5003500FF /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1FC3C9B01CA7C9C5003500FF /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		1FC3C9CF1CA7C9C5003500FF /* web resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F0C47041CBD832900A75378 /* about.jpg */,
+			);
+			name = "web resources";
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F4AA6C1C1589A2DF0093D97E = {
+			isa = PBXGroup;
+			children = (
+				1F80BB871CBD6E5900B96B87 /* Images.xcassets */,
+				1FC3C9631CA7C457003500FF /* food_images */,
+				1FC3C98A1CA7C9C5003500FF /* icons */,
+				F4AA6C311589A2DF0093D97E /* CCC */,
+				F4AA6C2A1589A2DF0093D97E /* Frameworks */,
+				F4AA6C281589A2DF0093D97E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4AA6C281589A2DF0093D97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4AA6C271589A2DF0093D97E /* CCC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4AA6C2A1589A2DF0093D97E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7F5E401CC2BC3A00F29019 /* MessageUI.framework */,
+				1F4D3BE71CBAD80900BDE0F2 /* QuartzCore.framework */,
+				F4AA6C2B1589A2DF0093D97E /* UIKit.framework */,
+				F4AA6C2D1589A2DF0093D97E /* Foundation.framework */,
+				F4AA6C2F1589A2DF0093D97E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4AA6C311589A2DF0093D97E /* CCC */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4D4E11CB39A6000DAA936 /* RecipeSegmentedTableViewController.h */,
+				CEA4D4E21CB39A6000DAA936 /* RecipeSegmentedTableViewController.m */,
+				F4AA6C3A1589A2DF0093D97E /* RecipeBookAppDelegate.h */,
+				F4AA6C3B1589A2DF0093D97E /* RecipeBookAppDelegate.m */,
+				F4AA6C3D1589A2DF0093D97E /* MainStoryboard.storyboard */,
+				1FC3C9881CA7C9C5003500FF /* AboutViewController.h */,
+				1FC3C9891CA7C9C5003500FF /* AboutViewController.m */,
+				1FC3C9CB1CA7C9C5003500FF /* RecipeTableCell.h */,
+				1FC3C9CC1CA7C9C5003500FF /* RecipeTableCell.m */,
+				1FAB7C871C93D458006958FA /* TableViewController.h */,
+				1FAB7C881C93D488006958FA /* TableViewController.m */,
+				1FEF4D551CA65DD400DDC568 /* Recipe.h */,
+				1FEF4D561CA65DD400DDC568 /* Recipe.m */,
+				1F7F5DFE1CC1549D00F29019 /* Contact.h */,
+				1F7F5DFF1CC154AA00F29019 /* Contact.m */,
+				F419149C158D558600E54887 /* RecipeDetailViewController.h */,
+				F419149D158D558600E54887 /* RecipeDetailViewController.m */,
+				1FC3C9AF1CA7C9C5003500FF /* en.lproj */,
+				1FC3C9CF1CA7C9C5003500FF /* web resources */,
+				F4AA6C321589A2DF0093D97E /* Supporting Files */,
+			);
+			name = CCC;
+			path = RecipeBook;
+			sourceTree = "<group>";
+		};
+		F4AA6C321589A2DF0093D97E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4AA6C331589A2DF0093D97E /* CCC-Info.plist */,
+				F4AA6C341589A2DF0093D97E /* InfoPlist.strings */,
+				F4AA6C371589A2DF0093D97E /* main.m */,
+				F4AA6C391589A2DF0093D97E /* CCC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4AA6C261589A2DF0093D97E /* CCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4AA6C451589A2DF0093D97E /* Build configuration list for PBXNativeTarget "CCC" */;
+			buildPhases = (
+				F4AA6C231589A2DF0093D97E /* Sources */,
+				F4AA6C241589A2DF0093D97E /* Frameworks */,
+				F4AA6C251589A2DF0093D97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCC;
+			productName = RecipeBook;
+			productReference = F4AA6C271589A2DF0093D97E /* CCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4AA6C1E1589A2DF0093D97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0730;
+				TargetAttributes = {
+					F4AA6C261589A2DF0093D97E = {
+						DevelopmentTeam = 7QBQN6WY4T;
+					};
+				};
+			};
+			buildConfigurationList = F4AA6C211589A2DF0093D97E /* Build configuration list for PBXProject "CCC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = F4AA6C1C1589A2DF0093D97E;
+			productRefGroup = F4AA6C281589A2DF0093D97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4AA6C261589A2DF0093D97E /* CCC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4AA6C251589A2DF0093D97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF2354F1CBEDFC4005C023E /* Images.xcassets in Resources */,
+				1FE377AD1CBD8BB70042CA79 /* about.jpg in Resources */,
+				1FE377AF1CBD8BB70042CA79 /* CCC-Info.plist in Resources */,
+				1FE3778F1CBD8B970042CA79 /* back2.jpg in Resources */,
+				1FE377941CBD8B970042CA79 /* home-collage.png in Resources */,
+				1FE377991CBD8B970042CA79 /* photo-frame.png in Resources */,
+				1FE3779A1CBD8B970042CA79 /* photo-frame@2x.png in Resources */,
+				1FE377551CBD8B610042CA79 /* bacon-deviled-eggs.jpg in Resources */,
+				1FE377561CBD8B610042CA79 /* bacon-shrimp-mac.jpg in Resources */,
+				1FE377571CBD8B610042CA79 /* baked-potato.jpg in Resources */,
+				1FE377581CBD8B610042CA79 /* banana-pudding.jpg in Resources */,
+				1FE377591CBD8B610042CA79 /* barbecue_sauce.jpg in Resources */,
+				1FE3775A1CBD8B610042CA79 /* bbq-beef-brats.jpg in Resources */,
+				1FE3775B1CBD8B610042CA79 /* bbq-chicken-pizza-squares.jpg in Resources */,
+				1FE3775C1CBD8B610042CA79 /* beef-tips.jpg in Resources */,
+				1FE3775D1CBD8B610042CA79 /* bread-pudding.jpg in Resources */,
+				1FE3775E1CBD8B610042CA79 /* broccoli-casserole.jpg in Resources */,
+				1FE3775F1CBD8B610042CA79 /* buttermilk_biscuits.jpg in Resources */,
+				1FE377601CBD8B610042CA79 /* buttery-corn-on-the-cob.jpg in Resources */,
+				1FE377611CBD8B610042CA79 /* collard-greens.jpg in Resources */,
+				1FE377621CBD8B610042CA79 /* cornbread-muffins.jpg in Resources */,
+				1FE377631CBD8B610042CA79 /* cream-of-mushroom.jpg in Resources */,
+				1FE377641CBD8B610042CA79 /* creme_brelee.jpg in Resources */,
+				1FE377651CBD8B610042CA79 /* crostini.jpg in Resources */,
+				1FE377661CBD8B610042CA79 /* egg_benedict.jpg in Resources */,
+				1FE377671CBD8B610042CA79 /* fork-tender-ribs.jpg in Resources */,
+				1FE377681CBD8B610042CA79 /* fried-chicken.jpg in Resources */,
+				1FE377691CBD8B610042CA79 /* full_breakfast.jpg in Resources */,
+				1FE3776A1CBD8B610042CA79 /* german-potato-salad.jpg in Resources */,
+				1FE3776B1CBD8B610042CA79 /* green-bean-casserole.jpg in Resources */,
+				1FE3776C1CBD8B610042CA79 /* grill-salad-spinach-salad.jpg in Resources */,
+				1FE3776D1CBD8B610042CA79 /* grilled-chicken-breast.jpg in Resources */,
+				1FE3776E1CBD8B610042CA79 /* grilled-zucchini-squash.jpg in Resources */,
+				1FE3776F1CBD8B610042CA79 /* ham_and_cheese_panini.jpg in Resources */,
+				1FE377701CBD8B610042CA79 /* ham_and_egg_sandwich.jpg in Resources */,
+				1FE377711CBD8B610042CA79 /* hamburger.jpg in Resources */,
+				1FE377721CBD8B610042CA79 /* hor-dourves.jpg in Resources */,
+				1FE377731CBD8B610042CA79 /* juicy-tender-brisket.jpg in Resources */,
+				1FE377741CBD8B610042CA79 /* mac-cheese.jpg in Resources */,
+				1FE377751CBD8B610042CA79 /* macaroni-salad.jpg in Resources */,
+				1FE377761CBD8B610042CA79 /* mushroom-puffs.jpg in Resources */,
+				1FE377771CBD8B610042CA79 /* mushroom-risotto.jpg in Resources */,
+				1FE377781CBD8B610042CA79 /* noodle_with_bbq_pork.jpg in Resources */,
+				1FE377791CBD8B610042CA79 /* oven-baked-chicken.jpg in Resources */,
+				1FE3777A1CBD8B610042CA79 /* party-meatballs.jpg in Resources */,
+				1FE3777B1CBD8B610042CA79 /* ribeyes-steak.jpg in Resources */,
+				1FE3777C1CBD8B610042CA79 /* rice_pilaf.jpg in Resources */,
+				1FE3777D1CBD8B610042CA79 /* rice-a-roni.jpg in Resources */,
+				1FE3777E1CBD8B610042CA79 /* rice-pudding.jpg in Resources */,
+				1FE3777F1CBD8B610042CA79 /* rich-brown-gravy.jpg in Resources */,
+				1FE377801CBD8B610042CA79 /* roasted-red-potato.jpg in Resources */,
+				1FE377811CBD8B610042CA79 /* salad-bar.jpg in Resources */,
+				1FE377821CBD8B610042CA79 /* self-serve-mixed-greens.jpg in Resources */,
+				1FE377831CBD8B610042CA79 /* shrimp-cocktail.jpg in Resources */,
+				1FE377841CBD8B610042CA79 /* sliced-bread.jpg in Resources */,
+				1FE377851CBD8B610042CA79 /* slow-braised-pork.jpg in Resources */,
+				1FE377861CBD8B610042CA79 /* slow-cooked-cabbage.jpg in Resources */,
+				1FE377871CBD8B610042CA79 /* spicy-southwest-slaw.jpg in Resources */,
+				1FE377881CBD8B610042CA79 /* steamed-brocolli.jpg in Resources */,
+				1FE377891CBD8B610042CA79 /* steamed-green-beans.jpg in Resources */,
+				1FE3778A1CBD8B610042CA79 /* sweet-hawaiian-rolls.jpg in Resources */,
+				1FE3778B1CBD8B610042CA79 /* tomato-pasta-salad.jpg in Resources */,
+				1FE3778C1CBD8B610042CA79 /* tomato-sauce.jpg in Resources */,
+				1FE3778D1CBD8B610042CA79 /* twice-baked-loaded-potato.jpg in Resources */,
+				1FE3778E1CBD8B610042CA79 /* vegetable_curry.jpg in Resources */,
+				1FE377541CBD8A1F0042CA79 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4AA6C231589A2DF0093D97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEF4D571CA65DD400DDC568 /* Recipe.m in Sources */,
+				F4AA6C381589A2DF0093D97E /* main.m in Sources */,
+				F4AA6C3C1589A2DF0093D97E /* RecipeBookAppDelegate.m in Sources */,
+				1FAB7C891C93D489006958FA /* TableViewController.m in Sources */,
+				F419149E158D558600E54887 /* RecipeDetailViewController.m in Sources */,
+				1F7F5E001CC154AA00F29019 /* Contact.m in Sources */,
+				1FC3CA0D1CA7C9C5003500FF /* RecipeTableCell.m in Sources */,
+				1FC3C9D21CA7C9C5003500FF /* AboutViewController.m in Sources */,
+				CEA4D4E31CB39A6000DAA936 /* RecipeSegmentedTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FC3C9B01CA7C9C5003500FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC3C9B11CA7C9C5003500FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4AA6C341589A2DF0093D97E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AA6C351589A2DF0093D97E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4AA6C3D1589A2DF0093D97E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4AA6C3E1589A2DF0093D97E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4AA6C431589A2DF0093D97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4AA6C441589A2DF0093D97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4AA6C461589A2DF0093D97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeBook/CCC-Prefix.pch";
+				INFOPLIST_FILE = "RecipeBook/CCC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benrettig.ccc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4AA6C471589A2DF0093D97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecipeBook/CCC-Prefix.pch";
+				INFOPLIST_FILE = "RecipeBook/CCC-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.benrettig.ccc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4AA6C211589A2DF0093D97E /* Build configuration list for PBXProject "CCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AA6C431589A2DF0093D97E /* Debug */,
+				F4AA6C441589A2DF0093D97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4AA6C451589A2DF0093D97E /* Build configuration list for PBXNativeTarget "CCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AA6C461589A2DF0093D97E /* Debug */,
+				F4AA6C471589A2DF0093D97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4AA6C1E1589A2DF0093D97E /* Project object */;
+}
