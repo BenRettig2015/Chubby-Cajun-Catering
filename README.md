@@ -4,7 +4,7 @@
 <br>
 ![Demo](video.mp4)
 
-![Farmers Market Finder Demo](kaizer.gif)
+![Farmers Market Finder Demo](video.gif)
 
 ### Quick Summary
 
