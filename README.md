@@ -2,8 +2,9 @@
 #  - CCC
 -- Objective - C Static Tableview 
 <br>
-![Demo](video.gif)
+![Demo](video.mp4)
 
+![Farmers Market Finder Demo](kaizer.gif)
 
 ### Quick Summary
 
